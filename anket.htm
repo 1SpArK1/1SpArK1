@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Анкета</title>
+</head>
+<body>
+ <p align=left>
+ 	<form name="talk" action="mailto:students.ugntu@mail.ru" method="POST">
+ 	<hr>
+ 	<center>Пожалуйста, заполните мою анкету: </center>
+ 	<hr>
+ 	Ваше имя:
+ 	<input type="text" name="name" size="40">
+ 	<br>
+ 	Ваш e-mail:
+ 	<input type="text" name="e-mail" size="35"><br>
+ 	Ваш возраст (лет):
+ 	<input type="RADIO" name="years" value="0-le15"> Младше 15
+ 	<input type="RADIO" name="years" value="o-15-25" checked> 15-25
+ 	<input type="RADIO" name="years" value="0-le15"> 26-35
+ 	<input type="RADIO" name="years" value="o-15-25"> 36-60
+ 	<input type="RADIO" name="years" value="o-15-25"> старше 60;
+ 	<br>
+ 	Место вашего проживания:
+ 	<select name="city">
+ 	<option selected> Екатеринбург </option>
+ 	<option> Москва </option>
+ 	<option> С.-Петербург </option>
+ 	<option> Уфа </option>
+ 	<option> Добавить </option>
+ 	</select>
+ 	<br>
+ 	Вам понравился мой сайт?
+ 	<input type="checkbox" name="mark" value="yes"><br><br>
+ 	Ваши пожелания :<br>
+ 	<textarea name="comment" rows=3 cols="50">
+ 		Теперь осваивай CGI :-))
+ 	</textarea>
+ 	<br>
+ 	Введите ваш пароль на сайте
+ 	<input type="text" name="name" size="40">
+ 	<br><input type="SUBMIT" name="OK_button" value="Послать запрос">
+ 	<p><input type="reset" value="Очистить форму"></p>
+ 	</form>
+  </p> 
+</body>
+</html>

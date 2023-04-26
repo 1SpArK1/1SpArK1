@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Электронная библиотека Омут</title>
+	<link href="index.css" rel="stylesheet" type="text/css">
+    <script src="https://js.cx/libs/animate.js"></script>
+</head>
+    
+<body>
+	
+    
+    <div class="header">
+    </div>
+    <div class="block1"><img src="ochki.png" width="50" height="50"></div>
+    <div class="block2">Версия для слабовидящих</div>
+    <div class="block3"><img src="znak_poiska.png" width="30" height="30"></div>
+    <div class="block4">Поиск по сайту</div>
+    <div class="container2">
+
+    <div onclick="ReportVk()"><img src="vk.png" width="35" height="35"></div>
+    <div class="block12" onclick="ReportTg()" ><img src="tg.png" width="35" height="35"></div>
+    <div class="block12"  onclick="alert('К сожаление ютуб не доступен в вашем регионе')"><img src="utub.png" class="block13" width="35" height="25"></div>
+    </div>
+    <div class="block5" ><img src="logo.png"  width="170" height="170"></div>
+    <div class="block6"><img src="podpis1.png" ></div>
+    <div class="block7"><img src="podpis2.png" ></div>
+    <div class="container">
+    <div id="container_script1"><a href="book.htm"><div class="block8"><div><img src="book_meny.png" width="60" height="60"></div><div class="block9" align="center">Книги</div></div></a></div>
+    
+    <div id="container_script2"><div class="block10"><div><img src="meny.png" width="60" height="60"></div><div class="block9" align="center">Услуги</div></div></div>
+    <div id="container_script3"><div class="block10"><div align="center"><img src="lamp.png" width="46" height="60"></div><div class="block9" align="center">Проекты</div></div></div>
+    <div id="container_script4"><a href="kontakt_info.htm"><div class="block20"><div><img src="gps.png" width="46" height="60"></div><div class="block9" align="center">О нас</div></div></a></div>
+    </div>
+    <div class="block21">
+    <p align=left>
+ 	<form name="talk" action="mailto:students.ugntu@mail.ru" method="POST">
+ 	
+ 	<center><div class="font1">Книжный магазин</div></center>
+ 	<div>
+ 	<br>
+ 	<br>
+ 	Для заказа товара заполните следующие поля
+ 	<br>
+ 	<br>
+ 	Все поля обязательны для заполнения
+ 	<br>
+ 	<br>
+ 	Автор 
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	<input type="text" name="name" size="40">
+ 	<br>
+ 	<br>
+ 	Название
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	<input type="text" name="name1" size="40">
+ 	<br>
+ 	<br>
+ 	Количество
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+ 	&nbsp
+
+ 	<input type="text" name="name2" size="10">
+ 	<br>
+ 	<br>
+ 	Адрес доставки
+ 	&nbsp 
+ 	<input type="text" name="addres" size="40">
+ 	<br>
+    </div>
+ 	<div class="block22">
+ 	Способ доставки:
+ 	<div><input type="RADIO" name="post" value="0-le15"> Почтой</div>
+ 	<div><input type="RADIO" name="kurier" value="o-15-25" checked> Курьер</div>
+ 	
+    </div>
+    <div>
+    <br>
+ 	Место вашего проживания:
+ 	<select name="city">
+ 	<option selected> Екатеринбург </option>
+ 	<option> Москва </option>
+ 	<option> С.-Петербург </option>
+ 	<option> Уфа </option>
+ 	<option> Добавить </option>
+ 	</select>
+ 	<br>
+ 	Вам понравился мой сайт?
+ 	<input type="checkbox" name="mark" value="yes"><br><br>
+ 	Ваши пожелания :<br>
+ 	<textarea name="comment" rows=3 cols="50">
+ 		Теперь осваивай CGI :-))
+ 	</textarea>
+ 	<br>
+ 	Введите ваш пароль на сайте
+ 	<input type="text" name="name" size="40">
+ 	<br><input type="SUBMIT" name="OK_button" value="Послать запрос">
+ 	<p><input type="reset" value="Очистить форму"></p>
+ 	</form>
+    </p>
+    </div>
+ 	
+    </div>
+    <div class="block24">
+    <textarea id="textExample" rows="5" cols="60">
+Но взял он меч, и взял он щит,
+Высоких полон дyм.
+В глущобу путь его лежит
+Под дерево Тумтум.
+
+Он стал под дерево и ждет,
+И вдруг граахнул гром -
+Летит ужасный Бармаглот
+И пылкает огнем!
+
+Раз-два, раз-два! Горит трава,
+Взы-взы — стрижает меч,
+Ува! Ува!
+И голова Барабардает с плеч!
+
+О светозарный мальчик мой! 
+Ты победил в бою! 
+О храброславленный герой,
+Хвалу тебе пою!
+
+
+  </textarea>
+
+  <button onclick="animateText(textExample)">Запустить анимацию набора текста!</button>
+  
+ 
+  </div>
+
+  <script src="script.js"></script>  
+</body>
+</html>

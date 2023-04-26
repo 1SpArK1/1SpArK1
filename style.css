@@ -1,0 +1,16 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  padding: 10px;
+  width: 330px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+
+
+
